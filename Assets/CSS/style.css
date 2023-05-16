@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(221, 237, 250);
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Times New Roman", Times, serif;
+    padding: 25px 0px;
+    background-color: #04283a;
+    color: #ffffff; 
+
+}
+
+
+header h1{
+    background-color: rgb(17, 143, 210);
+    display: inline-block;
+    color: rgb(27, 30, 39);
+    font-size: 50px;
+    padding: 10px 10px 10px 75px;
+    font-weight: bold;
+}
+
+header nav{
+    margin-right: 35px;
+}
+
+header nav a{
+    text-underline-offset: 8px;
+    color: rgb(42, 172, 242);
+    padding: 0px 15px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#Banner{
+    position: relative;
+    background-image: url("../Images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    display: flex;
+
+   }
+
+#Banner h2{
+    background-color: rgb(17, 143, 210);
+    color: rgb(27, 30, 39);
+    font-size: 40px;
+    position: absolute;
+    bottom: 12px;
+    right: 24px;
+}
+
+section{
+    display:inline-flex;
+    justify-content:center;
+    margin: 20px 0px 15px;
+
+}
+
+h3,h6{
+    color: rgb(18, 36, 89);
+    border: solid;
+    font-size: 75px;
+    text-align: right;
+    padding: 10px;
+    min-width: 25%;
+}
+
+#about{
+    text-align: center;
+    font-size: 20px
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    border-color:  rgb(17, 143, 210);
+}
+
+.info{
+    position: absolute;
+    bottom: 15px;
+    left: 16px;
+    font-size: 20px;
+    background-color: rgb(17, 143, 210);
+    display: inline-block;
+    color: rgb(27, 30, 39);
+
+}
+
+.links a img{
+    height: 200px;
+}
+
+
+
+
+
+
+footer{
+    display:inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer nav a{
+    text-underline-offset: 6px;
+    font-size: 22px;
+    text-decoration: underline;
+    margin: 50px;
+    padding-bottom: 10px;
+}
